@@ -67,7 +67,7 @@ class TestLogin(unittest.TestCase):
         driver.implicitly_wait(3000)
       
     def test_login_3(self):    
-        u'''密码错误'''
+        u'''密码错误,哈哈哈'''
         driver = self.driver
         driver.get(self.base_url)
         driver.implicitly_wait(30)
